@@ -1,33 +1,3 @@
-<template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        web-orthodontics
-      </h1>
-      <h2 class="subtitle">
-        My cat&#39;s meow Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-  </div>
-</template>
-
 <script>
 import Logo from '~/components/Logo.vue'
 
@@ -37,6 +7,20 @@ export default {
   }
 }
 </script>
+
+<template>
+<div>
+  <div class="container">
+    <div>
+      <logo />
+      <h1 class="title">
+        Σύντομα κοντά σας
+      </h1>
+      </div>
+  </div>
+        <div class="attribution">Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div>
+  </div>
+</template>
 
 <style>
 .container {
@@ -68,5 +52,10 @@ export default {
 
 .links {
   padding-top: 15px;
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
 }
 </style>
