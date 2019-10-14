@@ -30,6 +30,7 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 0 20px;
 }
 
 .title {
@@ -37,8 +38,9 @@ export default {
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 3rem;
   color: #35495e;
+  margin: 30px 0;
   letter-spacing: 1px;
 }
 
