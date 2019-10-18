@@ -1,0 +1,15 @@
+section {
+  padding: 40px 0;
+}
+
+@include tablet-up {
+  section {
+    padding: 80px 0;
+  }
+}
+
+@include desktop-up {
+  section {
+    padding: 150px 0;
+  }
+}
