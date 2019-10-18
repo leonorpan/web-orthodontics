@@ -5,12 +5,12 @@ export default {
 </script>
 
 <template lang="pug">
-main
+main.container
   section
-    .container
-      address
-        h1 Ελίζα Ι. Παναγιωτίδου
-        h2 Χειρουργός Οδοντίατρος
+    h1 Ελίζα Ι. Παναγιωτίδου
+    h2 Χειρουργός Οδοντίατρος
+  hr
+  section
 </template>
 
 <style>

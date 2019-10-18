@@ -1,3 +1,4 @@
+@import 'colors';
 @import 'breakpoints';
 @import 'container';
 @import 'section';
@@ -12,6 +13,19 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+}
+
+html, body {
+  background: var(--background);
+}
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+  // margin: 20px;
+  color: #DCDCDC;
+  border-top: 0;
 }
 
 *,
