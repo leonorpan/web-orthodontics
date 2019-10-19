@@ -1,11 +1,16 @@
 <script>
+import Features from '@/components/features'
 
 export default {
+  name: 'Home',
+  components: {
+    Features
+  }
 }
 </script>
 
 <template lang="pug">
-main.container
+main
   section
     .hero
       .banner
@@ -73,6 +78,7 @@ main.container
                 a.phone(href="tel:+30-25930-23581") 25930 23581
   hr
   section
+    Features
 </template>
 
 <style lang="scss" scoped>
@@ -90,7 +96,7 @@ main.container
   content: '\01F4DE'; // phone icon
   font-size: 1em;
   padding-right: 0.5em;
-  text-shadow: 0 0 0 #fc7978;
+  text-shadow: 0 0 0 var(--link-color);
   vertical-align: middle;
 }
 
